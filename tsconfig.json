@@ -7,7 +7,6 @@
     "resolveJsonModule": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "removeComments": true,
@@ -16,7 +15,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "include": [
-    "./src/**/*"
-  ]
+  "include": ["./src/**/*"]
 }
